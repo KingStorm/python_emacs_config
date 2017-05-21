@@ -1,0 +1,50 @@
+directory operation:
+M-x dired or C-x C-f [dir name]
+Then C-x C-q (or M-x wdired-change-to-wdired-mode) switches to Editable Dired mode
+
+Emacs can compare two files and highlight their differences: 
+(M-x ediff)
+
+Here are some ways to move around in larger increments:
+C-a	Beginning of line
+M-f	Forward one word
+M-a	Previous sentence
+M-v	Previous screen
+M-<	Beginning of buffer
+C-e	End of line
+M-b	Back one word
+M-e	Next sentence
+C-v	Next screen
+M->	End of buffer
+
+skip a word
+C + arrow
+choose:
+shift + arrow
+relocate a line:
+alt + arrow
+
+split-window-horizontally
+C-x 3 
+C-x 2 (vertically)
+Shift window:
+C-x o
+
+Go to a specific line:
+M-x goto-line
+
+Page down:
+C-v 
+Page up:
+M-v
+
+DELETE:
+deline one line
+C-k
+
+CHOOSE AND MANIPULATE:
+M-w copy chosen
+C-y paste
+
+REVERT
+C-/
