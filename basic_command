@@ -19,8 +19,6 @@ M->	End of buffer
 
 skip a word
 C + arrow
-choose:
-shift + arrow
 relocate a line:
 alt + arrow
 
@@ -42,9 +40,18 @@ DELETE:
 deline one line
 C-k
 
+CHOOSE
+shift + arrow
+the whole text:
+C-x h
+one paragraph:
+M-x h
+
 CHOOSE AND MANIPULATE:
 M-w copy chosen
 C-y paste
 
 REVERT
 C-/
+
+
