@@ -54,4 +54,12 @@ C-y paste
 REVERT
 C-/
 
+SHELL
+C-u M-x
+
+SEARCH
+C-s serach forward
+C-r search backward
+
+
 
